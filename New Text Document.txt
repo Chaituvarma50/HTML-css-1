@@ -1,0 +1,39 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrationform</title>
+</head>
+<body>  
+        <h2>Registrationform</h2>
+        <form id="Registrationform"></form>
+
+        <label>full name</label>
+        <input type="email" id="email" placeholder="enter your email"><br>
+
+        <label>password</label>
+        <input type="password" id="password" placeholder="enter your password"><br>
+
+        <label>confirm password</label>
+        <input type="confirm password" id="confirm password" placeholder="enter your confirm password"><br>
+        
+        <label>gender</label>
+        <div class ="gender">
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female<br>
+        </div>
+
+        <label>course</label>
+        <select id="course">
+            <option>select course</option>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>MBA</option>
+            <option>BTECH</option>
+
+        </select><br>
+        <button type="submit">register</button>
+        <p id="message"></p>
+
+    </div>
